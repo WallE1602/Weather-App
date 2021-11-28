@@ -159,7 +159,7 @@ if (isset($_GET['submit'])) {
                                 <div class="card-body">
                                     <h5 class="card-title mb-3">
                                         <?php
-                                        $today = date("D j [g:i a]", strtotime($clima['list']['7']['dt_txt']));
+                                        $today = date("D j|g:i a", strtotime($clima['list']['7']['dt_txt']));
                                         echo $today ?>
                                     </h5>
                                     <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
@@ -178,7 +178,7 @@ if (isset($_GET['submit'])) {
                                 <div class="card-body">
                                     <h5 class="card-title mb-3">
                                         <?php
-                                        $today = date("D j [g:i a]", strtotime($clima['list']['18']['dt_txt']));
+                                        $today = date("D j|g:i a", strtotime($clima['list']['18']['dt_txt']));
                                         echo $today ?>
                                     </h5>
                                     <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
@@ -198,7 +198,7 @@ if (isset($_GET['submit'])) {
                                 <div class="card-body">
                                     <h5 class="card-title mb-3">
                                         <?php
-                                        $today = date("D j [g:i a]", strtotime($clima['list']['22']['dt_txt']));
+                                        $today = date("D j|g:i a", strtotime($clima['list']['22']['dt_txt']));
                                         echo $today ?>
                                     </h5>
                                     <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
@@ -219,7 +219,7 @@ if (isset($_GET['submit'])) {
                                 <div class="card-body">
                                     <h5 class="card-title mb-3">
                                         <?php
-                                        $today = date("D j [g:i a]", strtotime($clima['list']['32']['dt_txt']));
+                                        $today = date("D j|g:i a", strtotime($clima['list']['32']['dt_txt']));
                                         echo $today ?>
                                     </h5>
                                     <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
@@ -240,7 +240,7 @@ if (isset($_GET['submit'])) {
                                 <div class="card-body">
                                     <h5 class="card-title mb-3">
                                         <?php
-                                        $today = date("D j [g:i a]", strtotime($clima['list']['38']['dt_txt']));
+                                        $today = date("D j|g:i a", strtotime($clima['list']['38']['dt_txt']));
                                         echo $today ?>
                                     </h5>
                                     <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
