@@ -67,7 +67,7 @@ if (isset($_GET['submit'])) {
 
 
     <!-- search bar -->
-    <div class="container p-4">
+    <div class="container pt-5">
         <form class="searchbar d-flex" action="" method="GET">
             <input class="form-control me-2" type="text" name="city" id="city" placeholder="Enter City Name...." value="<?php echo $city ?>">
             <button class="btn btn-outline-success" type="submit" value="Submit" class="submit" name="submit">Search</button>
@@ -87,7 +87,7 @@ if (isset($_GET['submit'])) {
 
     <!-- shows the weather box -->
     <?php if ($status == "yes") { ?>
-        <div class="containerweatherbox p-5 justify-content-center">
+        <div class="containerweatherbox p-3 justify-content-center">
             <div class="weatherbox">
                 <!-- today's weather box -->
                 <div class="container-fluid">
