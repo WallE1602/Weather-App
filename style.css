@@ -1,0 +1,47 @@
+.navbar,
+.searchbar {
+    font-family: 'Space Mono', monospace;
+}
+
+.containerweatherbox {
+    margin: auto;
+    width: 95%;
+    /* padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 40px; */
+}
+
+.weatherbox {
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+#weathertype {
+    font-size: 30px;
+}
+
+
+/* On mouse-over, add a deeper shadow */
+
+.weatherbox:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* background: #D1E8E4; */
+}
+
+.card {
+    /* padding-right: 10px; */
+    border-radius: 5px;
+    /* padding: 20px; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    font-family: 'Space Mono', monospace;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    /* background: #D1E8E4; */
+}
+
+.cardcols {
+    padding-right: 6px;
+}
