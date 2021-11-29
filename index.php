@@ -164,8 +164,7 @@ if (isset($_GET['submit'])) {
                                     </h5>
                                     <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
                                     <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['7']['main']['feels_like'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-high"></i><span> Temp Max: <?php echo $clima['list']['7']['main']['temp_max'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-low"></i><span> Temp Min: <?php echo $clima['list']['7']['main']['temp_min'] ?>°C</span></p>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -173,18 +172,17 @@ if (isset($_GET['submit'])) {
                         <div class="cardcols col-sm">
                             <div class="card mb-2">
                                 <div class="flex-lg-row">
-                                    <img src="http://openweathermap.org/img/wn/<?php echo $clima['list']['18']['weather']['0']['icon'] ?>@2x.png">
+                                    <img src="http://openweathermap.org/img/wn/<?php echo $clima['list']['17']['weather']['0']['icon'] ?>@2x.png">
                                 </div>
                                 <div class="card-body">
                                     <h5 class="card-title mb-3">
                                         <?php
-                                        $today = date("D j|g:i a", strtotime($clima['list']['18']['dt_txt']));
+                                        $today = date("D j|g:i a", strtotime($clima['list']['17']['dt_txt']));
                                         echo $today ?>
                                     </h5>
-                                    <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['7']['main']['feels_like'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-high"></i><span> Temp Max: <?php echo $clima['list']['7']['main']['temp_max'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-low"></i><span> Temp Min: <?php echo $clima['list']['7']['main']['temp_min'] ?>°C</span></p>
+                                    <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['17']['main']['temp'] ?>°C</span></p>
+                                    <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['17']['main']['feels_like'] ?>°C</span></p>
+                                    
 
                                 </div>
                             </div>
@@ -201,10 +199,9 @@ if (isset($_GET['submit'])) {
                                         $today = date("D j|g:i a", strtotime($clima['list']['22']['dt_txt']));
                                         echo $today ?>
                                     </h5>
-                                    <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['7']['main']['feels_like'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-high"></i><span> Temp Max: <?php echo $clima['list']['7']['main']['temp_max'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-low"></i><span> Temp Min: <?php echo $clima['list']['7']['main']['temp_min'] ?>°C</span></p>
+                                    <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['22']['main']['temp'] ?>°C</span></p>
+                                    <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['22']['main']['feels_like'] ?>°C</span></p>
+                                    
 
                                 </div>
                             </div>
@@ -222,10 +219,9 @@ if (isset($_GET['submit'])) {
                                         $today = date("D j|g:i a", strtotime($clima['list']['32']['dt_txt']));
                                         echo $today ?>
                                     </h5>
-                                    <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['7']['main']['feels_like'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-high"></i><span> Temp Max: <?php echo $clima['list']['7']['main']['temp_max'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-low"></i><span> Temp Min: <?php echo $clima['list']['7']['main']['temp_min'] ?>°C</span></p>
+                                    <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['32']['main']['temp'] ?>°C</span></p>
+                                    <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['32']['main']['feels_like'] ?>°C</span></p>
+                                    
 
                                 </div>
                             </div>
@@ -243,10 +239,9 @@ if (isset($_GET['submit'])) {
                                         $today = date("D j|g:i a", strtotime($clima['list']['38']['dt_txt']));
                                         echo $today ?>
                                     </h5>
-                                    <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['7']['main']['temp'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['7']['main']['feels_like'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-high"></i><span> Temp Max: <?php echo $clima['list']['7']['main']['temp_max'] ?>°C</span></p>
-                                    <p class="mb-3"><i class="fas fa-temperature-low"></i><span> Temp Min: <?php echo $clima['list']['7']['main']['temp_min'] ?>°C</span></p>
+                                    <p class="mb-3"><i class="fas fa-thermometer-half"></i><span> Temp: <?php echo $clima['list']['38']['main']['temp'] ?>°C</span></p>
+                                    <p class="mb-3"><i class="fas fa-smile"></i><span> Feels Like: <?php echo $clima['list']['38']['main']['feels_like'] ?>°C</span></p>
+                                    
 
                                 </div>
                             </div>
